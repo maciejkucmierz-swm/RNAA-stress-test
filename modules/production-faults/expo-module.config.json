@@ -1,0 +1,1 @@
+{"platforms":["apple","android"],"apple":{"modules":["ProductionFaultsModule"]},"android":{"modules":["expo.modules.productionfaults.ProductionFaultsModule"]}}

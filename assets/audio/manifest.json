@@ -1,0 +1,86 @@
+{
+  "impulse.wav": {
+    "duration": 0.25,
+    "sampleRate": 48000,
+    "channels": 1,
+    "bytes": 24044,
+    "sha256": "5ebf13cd6d5736c94f9bab0584955d02b9a647d1eb8bf4676b466fc437bc1b34"
+  },
+  "melody.wav": {
+    "duration": 3.0,
+    "sampleRate": 48000,
+    "channels": 1,
+    "bytes": 288044,
+    "sha256": "0be79e154940161d833c1a9cfea9e1df8ac4b25af1250f63afe075895aa28f8a"
+  },
+  "mono.wav": {
+    "duration": 3.0,
+    "sampleRate": 48000,
+    "channels": 1,
+    "bytes": 288044,
+    "sha256": "d0e423593a1c47389ea79260d82fe9d8a7d4cc6f5784d62c010f8c3726e511d0"
+  },
+  "silence.wav": {
+    "duration": 3.0,
+    "sampleRate": 48000,
+    "channels": 1,
+    "bytes": 288044,
+    "sha256": "5cffdd4793d2c7986a33d893ef9f6e29f84420b47f145c3669ecc971581941e7"
+  },
+  "stereo.aac": {
+    "duration": 3.077063,
+    "sampleRate": 48000,
+    "channels": 2,
+    "bytes": 49018,
+    "sha256": "33528873ff12541a0f7369486c84e2ec5bc711a1df70f8c12061a389dad1e30e"
+  },
+  "stereo.flac": {
+    "duration": 3.0,
+    "sampleRate": 48000,
+    "channels": 2,
+    "bytes": 92445,
+    "sha256": "683ab8def3cff5fa5a7aad0774f6c736c32683e044dfcc485719042f489f5b1d"
+  },
+  "stereo.m4a": {
+    "duration": 3.0,
+    "sampleRate": 48000,
+    "channels": 2,
+    "bytes": 49399,
+    "sha256": "388f28fc56d72ce14ce5dfb16d8551e94f618ded5fd2597c120d0df1d0b37ea1"
+  },
+  "stereo.mp3": {
+    "duration": 3.0,
+    "sampleRate": 48000,
+    "channels": 2,
+    "bytes": 48813,
+    "sha256": "fb1b8ae7568ebe30c737c4c4c81f43e2d4960e788620d1cd63abc5d26244599d"
+  },
+  "stereo.mp4": {
+    "duration": 3.0,
+    "sampleRate": 48000,
+    "channels": 2,
+    "bytes": 49419,
+    "sha256": "6e4766953707f7a17cd6a3ec2a1587603adedb76695f039a181b896b00905706"
+  },
+  "stereo.ogg": {
+    "duration": 3.0,
+    "sampleRate": 48000,
+    "channels": 2,
+    "bytes": 19751,
+    "sha256": "a13a544cfd3d026610c5c83fc0423ab8fa4ab8e1f6a37a8b6f2c9adcbb15b938"
+  },
+  "stereo.opus": {
+    "duration": 3.0065,
+    "sampleRate": 48000,
+    "channels": 2,
+    "bytes": 51670,
+    "sha256": "4aec20517c355f2bff697a7515873ef29999377212cdd65049cac831d1204670"
+  },
+  "stereo.wav": {
+    "duration": 3.0,
+    "sampleRate": 48000,
+    "channels": 2,
+    "bytes": 576044,
+    "sha256": "862aba2080f991697d5f98e335a2cc391803912aa73f5164a919ae885f630d56"
+  }
+}

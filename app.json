@@ -1,15 +1,18 @@
 {
   "expo": {
-    "name": "RNAA-stress-test",
-    "slug": "RNAA-stress-test",
+    "name": "RNAA Stress Test",
+    "slug": "rnaa-stress-test",
+    "scheme": "rnaa-stress-test",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "dark",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.rnaaworkshop.stresstest"
     },
     "android": {
+      "package": "com.rnaaworkshop.stresstest",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/android-icon-foreground.png",
@@ -18,8 +21,31 @@
       },
       "predictiveBackGestureEnabled": false
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    }
+    "platforms": ["ios", "android"],
+    "plugins": [
+      "expo-dev-client",
+      [
+        "react-native-audio-api",
+        {
+          "iosBackgroundMode": true,
+          "iosMicrophonePermission": "Allow RNAA Stress Test to use the microphone for audio recording functional tests.",
+          "androidPermissions": [
+            "android.permission.RECORD_AUDIO",
+            "android.permission.MODIFY_AUDIO_SETTINGS",
+            "android.permission.FOREGROUND_SERVICE",
+            "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+            "android.permission.FOREGROUND_SERVICE_MICROPHONE",
+            "android.permission.POST_NOTIFICATIONS"
+          ],
+          "androidForegroundService": true,
+          "androidFSTypes": ["mediaPlayback", "microphone"],
+          "androidFSStopWithTask": true
+        }
+      ],
+      "expo-router",
+      "expo-asset",
+      "expo-sharing",
+      "./plugins/with-production-faults"
+    ]
   }
 }

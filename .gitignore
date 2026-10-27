@@ -31,7 +31,8 @@ yarn-error.*
 *.pem
 
 # local env files
-.env*.local
+.env*
+!.env.example
 
 # typescript
 *.tsbuildinfo
@@ -39,3 +40,33 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# Selected from the installed Audio API package by postinstall
+src/audio/build-info.json
+
+# Native test helper build output
+/tools/audio-interrupter/.gradle/
+/tools/audio-interrupter/build/
+/tools/audio-interrupter/app/build/
+
+# Generated outputs of the local Expo module
+/modules/**/android/build/
+/modules/**/android/.gradle/
+
+# Local investigation history and device automation (keep on disk, not GitHub)
+/docs/
+/archive/
+/.argent/
+
+# The public usage guide is the only Markdown document in this repository.
+# AGENTS.md remains available locally for project instructions.
+*.md
+!/README.md
+
+# Local SDK paths, signing material and packaged app outputs
+local.properties
+*.keystore
+*.apk
+*.aab
+*.ipa
+*.xcarchive/
